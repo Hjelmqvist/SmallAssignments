@@ -1,0 +1,4 @@
+﻿  Main.cpp
+D:\Desktop\GitHub\SmallAssignments\ReverseCollection\Main.cpp(25,11): warning C4834: discarding return value of function with 'nodiscard' attribute
+D:\Desktop\GitHub\SmallAssignments\ReverseCollection\Main.cpp(25,56): warning C4834: discarding return value of function with 'nodiscard' attribute
+  ReverseCollection.vcxproj -> D:\Desktop\GitHub\SmallAssignments\Debug\ReverseCollection.exe

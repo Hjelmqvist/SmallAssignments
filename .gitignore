@@ -1,0 +1,53 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+.vs/SmallAssignments/v16/.suo
+.vs/SmallAssignments/v16/Browse.VC.db
+.vs/SmallAssignments/v16/Browse.VC.db-shm
+.vs/SmallAssignments/v16/Browse.VC.db-wal
+.vs/SmallAssignments/v16/Browse.VC.opendb
+.vs/SmallAssignments/v16/ipch/AutoPCH/14a3bd0b36a57746/MAIN.ipch
+.vs/SmallAssignments/v16/ipch/AutoPCH/4284477010febea8/MAIN.ipch
+.vs/SmallAssignments/v16/ipch/AutoPCH/50d02f9b7bf82ad1/MAIN.ipch
+.vs/SmallAssignments/v16/ipch/AutoPCH/7ccda0b1a588fcf5/MAIN.ipch
+.vs/SmallAssignments/v16/ipch/AutoPCH/9ba91ce39b6a72ae/MAIN.ipch
+.vs/SmallAssignments/v16/ipch/AutoPCH/a10bfb02e6ccb41/MAIN.ipch
+.vs/SmallAssignments/v16/ipch/AutoPCH/b9e5846bac662185/MAIN.ipch
+.vs/SmallAssignments/v16/ipch/AutoPCH/bf02469d7b535d2/MAIN.ipch
+.vs/SmallAssignments/v16/ipch/AutoPCH/c57a5a3d758b96dc/MAIN.ipch
+.vs/SmallAssignments/v16/ipch/AutoPCH/d455ab924c8d02ed/MAIN.ipch
+.vs/SmallAssignments/v16/ipch/AutoPCH/dc9537136064169a/MAIN.ipch
+.vs/SmallAssignments/v16/ipch/AutoPCH/e53534964de1df32/MAIN.ipch
+.vs/SmallAssignments/v16/ipch/AutoPCH/fa17187f22829014/MAIN.ipch
+.vs/SmallAssignments/v16/Solution.VC.db
+.vs/SmallAssignments/v16/Solution.VC.db-shm
+.vs/SmallAssignments/v16/Solution.VC.db-wal
