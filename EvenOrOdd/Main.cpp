@@ -5,17 +5,16 @@ using namespace std;
 
 int getInput(string prompt) {
 	cout << prompt;
-	int number;
-	cin >> number;
-	return number;
+	int input;
+	cin >> input;
+	return input;
 }
 
 bool isOdd(int number) {
-	return number % 2 != 0;
+	return number & 1;
 }
 
 int main() {
 	int number = getInput("Enter a number: ");
-	string oddOrEven = isOdd(number) ? "odd" : "even";
-	cout << number << " is an " << oddOrEven << " number";
+	cout << number << " is an " << (isOdd(number) ? "odd" : "even") << " number";
 }

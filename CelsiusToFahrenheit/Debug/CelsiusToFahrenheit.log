@@ -1,2 +1,3 @@
 ﻿  Main.cpp
+D:\Desktop\GitHub\SmallAssignments\CelsiusToFahrenheit\Main.cpp(20,60): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   CelsiusToFahrenheit.vcxproj -> D:\Desktop\GitHub\SmallAssignments\Debug\CelsiusToFahrenheit.exe

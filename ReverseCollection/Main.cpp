@@ -10,16 +10,10 @@ string getInput(const string& prompt) {
 	return input;
 }
 
-template<typename T, size_t S>
-void swap(T(&items)[S])
-{
-	
-}
-
 void reverseString(string& input)
 {
-	const unsigned int size = input.size();
-	const unsigned int middle = size / 2;
+	size_t size = input.size();
+	size_t middle = size / 2;
 	for (size_t i = 0; i < middle; ++i)
 	{
 		const char temp = input[i];

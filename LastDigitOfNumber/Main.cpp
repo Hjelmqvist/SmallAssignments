@@ -6,9 +6,9 @@ using namespace std;
 
 int getInput(string prompt) {
 	cout << prompt;
-	int number;
-	cin >> number;
-	return number;
+	int input;
+	cin >> input;
+	return input;
 }
 
 int lastDigit(int number) {
@@ -29,13 +29,16 @@ vector<int> getDigits(int number) {
 }
 
 void printDigits(vector<int> digits) {
-	for (int digit : digits) {
+	cout << "Printing digits: " << endl;
+	for (int digit : digits)
+	{
 		cout << digit << " ";
 	}
 	cout << endl;
 }
 
 void printDigitsReversed(vector<int> digits) {
+	cout << "Printing reversed: " << endl;
 	for (int i = size(digits) - 1; i >= 0; i--)
 	{
 		cout << digits[i] << " ";
@@ -50,8 +53,7 @@ int main() {
 	cout << "Last number is " << last << endl;
 
 	vector<int> digits = getDigits(number);
-	cout << "Printing digits: " << endl;
+	
 	printDigits(digits);
-	cout << "Printing reversed: " << endl;
 	printDigitsReversed(digits);
 }

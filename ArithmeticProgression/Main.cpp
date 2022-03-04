@@ -6,25 +6,23 @@ using namespace std;
 
 int getInput(string prompt) {
 	cout << prompt;
-	int number;
-	cin >> number;
-	return number;
+	int input;
+	cin >> input;
+	return input;
 }
 
 bool hasArithmeticProgression(vector<int> numbers)
 {
-	if (numbers.size() < 2)
+	if (numbers.size() > 2)
 	{
-		return false;
-	}
+		const int difference = numbers[0] - numbers[1];
 
-	const int difference = numbers[0] - numbers[1];
-
-	for (int i = 0; i < numbers.size() - 1; ++i)
-	{
-		if (numbers[i] - numbers[i + 1] != difference)
+		for (int i = 0; i < numbers.size() - 1; ++i)
 		{
-			return false;
+			if (numbers[i] - numbers[i + 1] != difference)
+			{
+				return false;
+			}
 		}
 	}
 	return true;
